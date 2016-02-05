@@ -1,4 +1,3 @@
-import java.sql.Connection;
 import java.util.Scanner;
 
 public class Main {
@@ -33,6 +32,7 @@ public class Main {
 
         container.print();
 
-
+        System.out.println("\nСредняя цена ноутбука: "+Laptop.getAverage_sum());
+        System.out.println("Средняя цена настольного компьютера: " + Desktop.getAverage_sum());
     }
 }
